@@ -1,9 +1,7 @@
 export default function WorksLayout({
   children,
-  authModal,
 }: {
   children: React.ReactNode;
-  authModal: React.ReactNode;
 }) {
   return (
     <main className="bg-gray-200 h-screen px-[4rem] py-[2rem]">
