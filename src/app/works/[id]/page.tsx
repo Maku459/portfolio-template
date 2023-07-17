@@ -1,5 +1,6 @@
 import CardDetail from "../components/CardDetail/CardDetail";
 import swagData, { Work } from "../../data";
+import { useRouter } from "next/navigation";
 
 export default function WorkPage({
   params: { id },
