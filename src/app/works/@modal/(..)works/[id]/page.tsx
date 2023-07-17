@@ -1,6 +1,6 @@
-import CardDetail from "../../../works/components/CardDetail/CardDetail";
-import Modal from "../../../works/components/Modal/Modal";
-import swagData, { Work } from "../../../data";
+import CardDetail from "../../../components/CardDetail/CardDetail";
+import Modal from "../../../components/Modal/Modal";
+import swagData, { Work } from "../../../../data";
 
 export default function PhotoModal({
   params: { id },
