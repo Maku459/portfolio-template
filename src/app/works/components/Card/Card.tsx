@@ -2,16 +2,16 @@ import Link from "next/link";
 import Image from "next/image";
 
 export default function Card({
-  key,
+  id,
   title,
   imageSrc,
 }: {
-  key: string;
+  id: string;
   title: string;
   imageSrc: string;
 }) {
   return (
-    <Link key={key} href={`/works/${key}`}>
+    <Link href={`/works/${id}`}>
       <div className="bg-white px-5 pt-5 pb-5 rounded-lg">
         <Image
           alt=""
