@@ -11,7 +11,7 @@ export default function Card({
   imageSrc: string;
 }) {
   return (
-    <Link key={key} href={`/photos/${key}`}>
+    <Link key={key} href={`/works/${key}`}>
       <div className="bg-white px-5 pt-5 pb-5 rounded-lg">
         <Image
           alt=""
